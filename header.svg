@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170">
+  <defs>
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.33" stop-color="#6366F1"/>
+      <stop offset="0.66" stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="type">
+      <rect x="160" y="0" height="130" width="0">
+        <animate attributeName="width" calcMode="discrete" dur="2.1s" fill="freeze"
+          values="0;41;82;123;164;205;246;287;328;369;410;451;492;533;580"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#type)">
+    <text x="160" y="95" textLength="574" lengthAdjust="spacingAndGlyphs"
+      font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="68" font-weight="800"
+      fill="url(#flow)">Dima Rawashdeh</text>
+  </g>
+
+  <rect y="40" width="5" height="66" rx="2" fill="#22D3EE">
+    <animate attributeName="x" calcMode="discrete" dur="2.1s" fill="freeze"
+      values="162;203;244;285;326;367;408;449;490;531;572;613;654;695;742"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="450" y="145" text-anchor="middle" opacity="0"
+    font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500"
+    fill="#8B949E" letter-spacing="1">Software Engineer  ·  AI Agents  ·  LLM Integration  ·  Automation
+    <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.8s" fill="freeze"/>
+  </text>
+</svg>
